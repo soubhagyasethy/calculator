@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins&family=Roboto:wght@300&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center{    
+    text-align: center;
+}
+
+.container{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    margin-bottom: 0.29rem;
+}
+
+.button{
+    background-color: rgb(121, 113, 113);
+    color: white;
+    font-style: italic;
+    margin: 0.1rem;
+    padding: 1rem;
+    border-style: none;
+    border-radius: 40%;
+}
+
+.button-orange{
+    background-color:rgb(219, 161, 35);
+}
+
+input{
+    margin-bottom: 0.39rem;
+    padding: 0.65rem 0rem;
+    border-radius: 0.4rem;
+    text-align: right;
+    font-size: 0.9rem;
+
+}
