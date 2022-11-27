@@ -38,11 +38,18 @@ html, body {
     background-color:rgb(219, 161, 35);
 }
 
-input{
+.input{
+    height: 1.5rem;
+    width: 11.5rem;
+    background-color: rgb(218, 208, 208);
+    display: flex;
+    justify-content: center;
     margin-bottom: 0.39rem;
     padding: 0.65rem 0rem;
+    border: 0.1rem solid rgb(68, 66, 66);
     border-radius: 0.4rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
     text-align: right;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 
 }
