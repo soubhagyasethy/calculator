@@ -14,23 +14,30 @@ html, body {
 }
 
 .container{
-    /* background-color: red; */
+    background-color: rgb(206, 201, 201);
     display: flex;
+    margin: auto;
     flex-direction: column;
     align-items: center;
+    /* height: 17.5rem; */
+    width: 12.5rem;
+    border-radius: 6%;
+    border: 0.1rem solid rgb(207, 205, 205);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .input{
     height: 1.3rem;
-    width: 11.1rem;
+    width: 10.9rem;
     background-color: rgb(218, 208, 208);
     display: flex;
     justify-content: center;
+    margin-top: 0.6rem;
     margin-bottom: 0.39rem;
     padding: 0.65rem 0rem;
-    border: 0.1rem solid rgb(68, 66, 66);
+    border: 0.01rem solid rgb(68, 66, 66);
     border-radius: 0.4rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
     text-align: right;
     font-size: 1.5rem;
 
@@ -41,7 +48,7 @@ html, body {
 }
 
 .button{
-    background-color: rgb(121, 113, 113);
+    background-color: rgb(153, 150, 150);
     color: white;
     font-style: italic;
     margin: 0.1rem;
@@ -49,6 +56,10 @@ html, body {
     border-style: none;
     border-radius: 40%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.button:hover{
+    background-color:#737980;
 }
 
 .button-orange{
